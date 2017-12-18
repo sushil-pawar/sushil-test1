@@ -9,6 +9,7 @@ import org.springframework.data.solr.core.mapping.SolrDocument;
 @SolrDocument(solrCoreName = "profile")
 public class Book {
 	
+	
 	@Id
     @Field
     private String id;
