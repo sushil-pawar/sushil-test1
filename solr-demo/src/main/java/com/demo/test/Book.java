@@ -9,7 +9,6 @@ import org.springframework.data.solr.core.mapping.SolrDocument;
 @SolrDocument(solrCoreName = "profile")
 public class Book {
 	
-	//sushil comment
 	@Id
     @Field
     private String id;
